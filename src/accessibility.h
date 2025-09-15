@@ -160,6 +160,15 @@ class Accessibility {
         const string& aggtyp,
         const string& decay,
         int graphno);
+    
+    // Helper for individual accessibility computation
+    double computeIndividualAccessibility(
+        long long source_node, 
+        float radius,
+        const string& category,
+        const string& aggtyp,
+        const string& decay,
+        int graphno);
 };
 }  // namespace accessibility
 }  // namespace MTC

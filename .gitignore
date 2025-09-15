@@ -1,3 +1,11 @@
+# Exclude original pandana-dev directory
+../pandana-dev/
+pandana-dev/
+**/pandana-dev/
+
+# Virtual environments (Enhanced Pandana specific)
+enhanced_pandana_env/
+**/enhanced_pandana_env/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
